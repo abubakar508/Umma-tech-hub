@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Montserrat;
+  src: url('../../public//Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+.active {
+  @apply border-b-2 border-blue-600
+}
